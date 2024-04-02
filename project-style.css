@@ -1,0 +1,83 @@
+html.project .top-section .background-image {
+  background-image: url(./images/project.jpg);
+}
+html.project .header {
+  text-align: center;
+}
+html.project #project-details {
+  gap: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+html.project .header .title {
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+html.project .header .text {
+  font-size: 1.5rem;
+  opacity: 0.7;
+  margin-bottom: 60px;
+  margin: 0;
+}
+html.project img.laptop {
+  font-size: 1.1rem;
+  line-height: 150%;
+  width: calc(min(80vw, 70ch) * 0.8);
+  margin-top: 10px;
+  margin-bottom: 20px;
+  box-shadow: 20px 20px 10px rgba(255, 255, 255, 0.2);
+}
+html.project p.text {
+  text-align: justify;
+  width: min(80vw, 70ch);
+  font-size: 1.1rem;
+  line-height: 150%;
+}
+html.project em:hover {
+  color: var(--color2);
+  transition: all 0.2s ease-out;
+}
+html.project .cheers {
+  background-image: url(./images/beer.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+}
+html.project .cheers h1 {
+  text-align: center;
+  font-size: 3rem;
+  height: 100%;
+  line-height: 600px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--text-color);
+}
+@media only screen and (min-width: 1200px) {
+  html.project #project-details {
+    gap: 60px;
+  }
+  html.project .header .title {
+    font-size: 3rem;
+  }
+  html.project .header .text {
+    font-size: 1.5rem;
+  }
+  html.project p.text {
+    font-size: 1.4rem;
+  }
+  html.project img.laptop {
+    font-size: 1.4rem;
+    box-shadow: 50px 40px 10px rgba(255, 255, 255, 0.2);
+  }
+  html.project .cheers {
+    height: 1000px;
+    background-position: 50% 30%;
+  }
+  html.project .cheers h1 {
+    font-size: 5rem;
+    line-height: 1000px;
+    letter-spacing: 4px;
+  }
+}

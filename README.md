@@ -1,2 +1,2 @@
-# atestat-project
-Project made for programming certificate
+# restaurant-page-simplified
+Simplified version of the restaurant page project(removed webpack, swup and babel)
